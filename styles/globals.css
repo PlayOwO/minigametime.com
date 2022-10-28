@@ -14,7 +14,7 @@ body {
 }
 
 .section-head {
-  @apply mx-4 mb-4 flex items-center justify-between space-x-2 text-sky-700 xl: mx-8 xl:mb-5;
+  @apply mx-4 mb-4 flex items-center justify-between space-x-2 text-sky-700 xl:mx-8 xl:mb-5;
 
   .h2 {
     @apply font-bold;
@@ -42,23 +42,23 @@ body {
 }
 
 .home-button {
-  @apply flex h-6 w-6 items-center text-sky-800 xl: absolute xl:top-2 xl:left-5 xl:h-12 xl:w-12 xl:items-center xl:justify-center xl:rounded-full xl:text-yellow-300;
+  @apply flex h-6 w-6 items-center text-sky-800 xl:absolute xl:top-2 xl:left-5 xl:h-12 xl:w-12 xl:items-center xl:justify-center xl:rounded-full xl:text-yellow-300;
 }
 
 .menu-button {
-  @apply absolute right-0 top-0 grid h-6 w-6 content-center justify-center text-sky-800 xl: hidden;
+  @apply absolute right-0 top-0 grid h-6 w-6 content-center justify-center text-sky-800 xl:hidden;
 }
 
 .menu-panel {
-  @apply mt-4 rounded-3xl bg-sky-900 p-3 text-cyan-500 shadow-lg xl: mt-0 xl:ml-3 xl:block xl:rounded-full xl:pl-20 xl:shadow-yellow-900/20;
+  @apply mt-4 rounded-3xl bg-sky-900 p-3 text-cyan-500 shadow-lg xl:mt-0 xl:ml-3 xl:block xl:rounded-full xl:pl-20 xl:shadow-yellow-900/20;
 }
 
 .menu-list {
-  @apply grid grid-cols-3 gap-2 xl: flex;
+  @apply grid grid-cols-3 gap-2 xl:flex;
 }
 
 .menu-item {
-  @apply rounded-xl border-2 border-sky-700 bg-sky-700 py-1.5 px-2 text-center text-sm xl: transform xl:border-transparent xl:bg-transparent xl:py-2 xl:duration-500 xl:ease-in-out xl:hover:bg-sky-700;
+  @apply rounded-xl border-2 border-sky-700 bg-sky-700 py-1.5 px-2 text-center text-sm xl:transform xl:border-transparent xl:bg-transparent xl:py-2 xl:duration-500 xl:ease-in-out xl:hover:bg-sky-700;
 
   a {
     @apply block;
@@ -92,7 +92,7 @@ body {
 
 /* Home */
 .home {
-  @apply xl: mx-auto xl:grid xl:grid-cols-4;
+  @apply xl:mx-auto xl:grid xl:grid-cols-4;
 }
 
 .total {
@@ -104,18 +104,18 @@ body {
 }
 
 .home {
-  @apply xl: mx-8;
+  @apply xl:mx-8;
 
   .section-head {
-    @apply xl: mb-3 xl:text-lg;
+    @apply xl:mb-3 xl:text-lg;
   }
 
   .list {
-    @apply mx-2 mb-4 grid grid-cols-4 gap-2 xl: mx-8 xl:mb-6 xl:grid-cols-2 xl:gap-4;
+    @apply mx-2 mb-4 grid grid-cols-4 gap-2 xl:mx-8 xl:mb-6 xl:grid-cols-2 xl:gap-4;
   }
 
   .rating {
-    @apply absolute -right-1 -bottom-1 grid h-6 w-6 items-center justify-center rounded-full bg-white text-xs font-bold text-orange-500 xl: h-10 xl:w-10 xl:text-base;
+    @apply absolute -right-1 -bottom-1 grid h-6 w-6 items-center justify-center rounded-full bg-white text-xs font-bold text-orange-500 xl:h-10 xl:w-10 xl:text-base;
   }
 
   .item-link {
@@ -135,14 +135,14 @@ body {
 
 /* Archived */
 .archived {
-  @apply xl: mx-8;
+  @apply xl:mx-8;
 
   section {
     @apply mb-6;
   }
 
   .section-head {
-    @apply justify-center xl: justify-start;
+    @apply justify-center xl:justify-start;
   }
 
   .h2 {
@@ -150,7 +150,7 @@ body {
   }
 
   .list {
-    @apply grid gap-2 xl: grid-cols-5 xl:gap-4;
+    @apply grid gap-2 xl:grid-cols-5 xl:gap-4;
   }
 
   .item {
@@ -162,7 +162,7 @@ body {
   }
 
   .section-body {
-    @apply mx-2 grid-cols-1 xl: mx-8 xl:grid-cols-5;
+    @apply mx-2 grid-cols-1 xl:mx-8 xl:grid-cols-5;
   }
 }
 
@@ -172,7 +172,7 @@ body {
 
 .all {
   .list {
-    @apply grid grid-cols-4 gap-2 xl: grid-cols-12 xl:gap-4;
+    @apply grid grid-cols-4 gap-2 xl:grid-cols-12 xl:gap-4;
   }
 
   picture,
@@ -187,23 +187,23 @@ body {
 
 /* Detail */
 .game-info {
-  @apply mb-4 flex space-x-4 bg-sky-100 p-4 xl: flex-row-reverse xl:justify-between xl:space-x-0 xl:bg-transparent;
+  @apply mb-4 flex space-x-4 bg-sky-100 p-4 xl:flex-row-reverse xl:justify-between xl:space-x-0 xl:bg-transparent;
 
   .title {
-    @apply mt-2 text-xl font-black leading-6 text-sky-700 xl: mb-6 xl:text-5xl;
+    @apply mt-2 text-xl font-black leading-6 text-sky-700 xl:mb-6 xl:text-5xl;
   }
 
   .image {
-    @apply h-28 w-28 rounded-2xl xl: h-[200px] xl:w-[200px] xl:border-8 xl:border-sky-300 xl:shadow-xl xl:shadow-sky-200;
+    @apply h-28 w-28 rounded-2xl xl:h-[200px] xl:w-[200px] xl:border-8 xl:border-sky-300 xl:shadow-xl xl:shadow-sky-200;
   }
 }
 
 .game-meta {
-  @apply xl: flex xl:flex-row xl:items-center xl:space-x-2;
+  @apply xl:flex xl:flex-row xl:items-center xl:space-x-2;
 }
 
 .game-rating {
-  @apply my-2 grid h-8 w-8 content-center rounded-full bg-orange-500 text-center font-bold text-white xl: h-12 xl:w-12;
+  @apply my-2 grid h-8 w-8 content-center rounded-full bg-orange-500 text-center font-bold text-white xl:h-12 xl:w-12;
 }
 
 .game-category {
@@ -211,11 +211,11 @@ body {
 }
 
 .play-btn {
-  @apply mx-4 block rounded-full bg-sky-500 py-4 px-8 text-center text-xl font-bold text-white shadow-lg shadow-sky-600/20 xl: w-[300px];
+  @apply mx-4 block rounded-full bg-sky-500 py-4 px-8 text-center text-xl font-bold text-white shadow-lg shadow-sky-600/20 xl:w-[300px];
 }
 
 .description {
-  @apply m-4 rounded-lg bg-sky-200 p-4 text-sm text-sky-800 xl: mx-2 xl:my-6 xl:text-base;
+  @apply m-4 rounded-lg bg-sky-200 p-4 text-sm text-sky-800 xl:mx-2 xl:my-6 xl:text-base;
 
   .title {
     @apply mb-2 font-bold;
@@ -230,11 +230,11 @@ body {
   @apply mx-auto max-w-5xl;
 
   .section-head {
-    @apply mx-4 text-lg xl: mx-6 xl:text-xl;
+    @apply mx-4 text-lg xl:mx-6 xl:text-xl;
   }
 
   .list {
-    @apply mb-6 grid gap-2 xl: grid-cols-3 xl:gap-4;
+    @apply mb-6 grid gap-2 xl:grid-cols-3 xl:gap-4;
 
     .item {
       @apply mx-2;
@@ -250,7 +250,7 @@ body {
   }
 
   .section-body {
-    @apply xl: mx-0 xl:grid-cols-3;
+    @apply xl:mx-0 xl:grid-cols-3;
   }
 }
 
@@ -264,7 +264,7 @@ body {
 
 /* Page */
 .page {
-  @apply xl: mx-8;
+  @apply xl:mx-8;
 
   .section-head {
     @apply mx-8 text-xl;
