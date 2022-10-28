@@ -9,7 +9,7 @@ export default function ListItem({ item, option }) {
   return (
     <li className="item">
       <Link href={`/game/` + item.slug}>
-        <a>
+        <a className="item-link">
           {option && option.includes(`rating`) ? (
             <div className="relative">
               <Image
