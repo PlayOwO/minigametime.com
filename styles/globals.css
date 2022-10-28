@@ -175,6 +175,7 @@ body {
     @apply grid grid-cols-4 gap-2 xl: grid-cols-12 xl:gap-4;
   }
 
+  picture,
   .image {
     @apply w-full;
   }
