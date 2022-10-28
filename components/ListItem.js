@@ -17,6 +17,7 @@ export default function ListItem({ item, option }) {
                 src={item.title}
                 width={100}
                 height={100}
+                alt={item.title}
               />
               <div className="rating">{item.rating}</div>
             </div>
@@ -26,6 +27,7 @@ export default function ListItem({ item, option }) {
               src={item.title}
               width={100}
               height={100}
+              alt={item.title}
             />
           )}
           {option && option.includes(`title`) ? (
