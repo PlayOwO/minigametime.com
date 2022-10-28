@@ -1,4 +1,5 @@
-import Image from "next/future/image";
+// import Image from "next/future/image";
+import Image from "./Image";
 import Link from "next/link";
 import { getImageUrl } from "../lib/api";
 
@@ -13,8 +14,7 @@ export default function ListItem({ item, option }) {
             <div className="relative">
               <Image
                 className="image"
-                src={getImageUrl(item.title)}
-                alt={item.title}
+                src={item.title}
                 width={100}
                 height={100}
               />
@@ -23,8 +23,7 @@ export default function ListItem({ item, option }) {
           ) : (
             <Image
               className="image"
-              src={getImageUrl(item.title)}
-              alt={item.title}
+              src={item.title}
               width={100}
               height={100}
             />
